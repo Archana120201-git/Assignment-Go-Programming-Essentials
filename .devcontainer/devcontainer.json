@@ -1,2 +1,16 @@
+{
+  "name": "Go Simple Blockchain",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "golang.go" // Go extension for VS Code
+  ],
+  "postCreateCommand": "go mod init Simple-Blockchain-Assignments && go mod tidy",
+  "remoteUser": "vscode"
+}
 
   
